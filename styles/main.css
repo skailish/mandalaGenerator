@@ -1,4 +1,5 @@
-#clear {
+#clear,
+#save {
   cursor: pointer;
   background-color: #6585ab;
   color: white;
@@ -11,15 +12,19 @@
   text-transform: uppercase;
   margin-right: 30px;
 }
-#clear:hover {
+#clear:hover,
+#save:hover {
   background-color: rgba(74, 95, 121, 0.322);
 }
 
 html,
 body {
+  max-width: 100%;
+  overflow: hidden;
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+  padding-top: 50px;
 }
 
 body {
@@ -32,6 +37,7 @@ body {
 }
 
 canvas {
+  margin: 20px;
   touch-action: none;
   background-color: #fff;
 }
@@ -71,14 +77,22 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #6585ab;
-  padding: 20px 0 0 0;
+  background-color: #e3f0ff;
+  margin-top: 20px;
   width: 100%;
-  position: absolute;
-  bottom: 0;
 }
 footer * {
-  color: #fff;
+  color: #000;
+}
+footer p a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer img {
+  margin-right: 10px;
+  width: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */

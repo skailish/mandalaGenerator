@@ -1,8 +1,11 @@
 html,
 body {
+    max-width: 100%;
+    overflow: hidden;
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
+    padding-top: 50px;
 }
 
 body {
@@ -12,6 +15,7 @@ body {
 }
 
 canvas {
+    margin: 20px;
     touch-action: none;
     background-color: #fff;
 }

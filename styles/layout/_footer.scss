@@ -1,11 +1,16 @@
 footer {
     @include flex(row, center, center);
-    background-color: #6585ab;
-    padding: 20px 0 0 0;
+    background-color: #e3f0ff;
+    margin-top: 20px;
     width: 100%;
-    position: absolute;
-    bottom: 0;
     * {
-        color: #fff;
+        color: #000;
+    }
+    p a {
+        @include flex(row, center, center);
+    }
+    img {
+        margin-right: 10px;
+        width: 30px;
     }
 }
