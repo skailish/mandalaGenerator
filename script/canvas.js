@@ -5,13 +5,11 @@
  * Description.
  * Mandala generator with canvas.
  *
- * @link   URL
- * @file   This files defines the MyClass class.
- * @author AuthorName.
- * @since  x.x.x
+ * @link   https://skailish.github.io/mandalaGenerator/
+ * @author Daniela Capponi.
+ * @since  09.07.2020
  */
 
-/** jshint {inline configuration here} */
 
 let drawingCanvas = "";
 let canvasContext = "";
