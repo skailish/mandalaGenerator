@@ -1,0 +1,25 @@
+.main-header {
+    @include flex(row, space-between, center);
+    @include shadow;
+    background-color: #fff;
+    width: 100%;
+    width: 100vw;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    transition: 0.3s ease-in;
+
+    .logo-wrap {
+        font-family: "Galada", cursive;
+        font-size: 25px;
+        color: palevioletred;
+        font-weight: bold;
+        margin: 0 30px;
+        @include flex(row, space-between, center);
+
+        .logo-header {
+            width: 60px;
+            margin-right: 30px;
+        }
+    }
+}

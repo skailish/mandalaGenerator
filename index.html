@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
     <script src="script/canvas.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
     <title>Mandala Generator</title>
 </head>
 <body>
     <header class="main-header">
-        <nav id="menu">
+        <div class="logo-wrap"><img class="logo-header" src="imgs/mandala.png" alt="logo mandala"> Mandala Generator</div>
+        <nav id="main-nav">
             <input type="color" id="color" />
-            <button type="button" id="clear">Clear</button>
+            <input type="checkbox" id="stroke"/>
+            <input type="checkbox" id="line"/>
         </nav>
+        <button type="button" id="clear">Clear</button>
     </header>
 
     <canvas id="canvas" width="300px" height="300px"></canvas>
-    
+    <footer><p>https://github.com/skailish/</p></footer>
 </body>
 </html>
